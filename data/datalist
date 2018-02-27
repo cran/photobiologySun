@@ -1,0 +1,5 @@
+broad-band: irrad_Kipp.data ppfd_BF.data ppfd_LICOR.data
+gap-mspct: gap.mspct
+sun-hourly-spct: sun_hourly_august.spct sun_hourly_june.spct
+sun-may-morning-spct: sun_may_morning.spct
+sun-reference-mspct: sun_reference.mspct
