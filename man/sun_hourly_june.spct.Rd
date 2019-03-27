@@ -37,7 +37,7 @@ ultraviolet radiation. Plant Physiology, 161, 744-759
 
 Lindfors, A.; Heikkilä, A.; Kaurola, J.; Koskela, T. & Lakkala, K. (2009) 
 Reconstruction of Solar Spectral Surface UV Irradiances Using Radiative 
-Transfer Simulations. Photochemistry and Photobiology, 85: 1233–1239
+Transfer Simulations. Photochemistry and Photobiology, 85: 1233-1239
 }
 \author{
 Anders K. Lindfors (radiation transfer modelling)

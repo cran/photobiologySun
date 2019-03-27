@@ -6,10 +6,10 @@
 \alias{photobiologySun-package}
 \title{photobiologySun: Data for Sunlight Spectra}
 \description{
-Data for the extraterrestrial solar spectral irradiance and ground
-level solar spectral irradiance and irradiance. In addition data for
-shade light under vegetation and irradiance time series.  Part of the
-'r4photobiology' suite, Aphalo P. J. (2015) <doi:10.19232/uv4pb.2015.1.14>.
+Data for the extraterrestrial solar spectral irradiance and ground 
+    level solar spectral irradiance and irradiance. In addition data for 
+    shade light under vegetation and irradiance time series.  Part of the 
+    'r4photobiology' suite, Aphalo P. J. (2015) <doi:10.19232/uv4pb.2015.1.14>.
 }
 \examples{
 library(photobiology)
@@ -25,12 +25,12 @@ T. M., Rosenqvist, E. (Eds.). (2012). Beyond the Visible: A handbook of best
 practice in plant UV photobiology (1st ed., p. xxx + 174). Helsinki:
 University of Helsinki, Department of Biosciences, Division of Plant Biology.
 ISBN 978-952-10-8363-1 (PDF), 978-952-10-8362-4 (paperback). Open access PDF
-download available at \url{http://hdl.handle.net/10138/37558}
+download available at \url{https://hdl.handle.net/10138/37558}
 
 Aphalo, Pedro J. (2015) The r4photobiology suite. UV4Plants Bulletin, 2015:1,
-21-29. \url{http://doi.org/10.19232/uv4pb.2015.1.14}.
+21-29. \url{https://doi.org/10.19232/uv4pb.2015.1.14}.
 
-\url{https://www.nrel.gov/rredc/} \url{http://www.astm.org/}
+\url{https://www.nrel.gov/rredc/} \url{https://www.astm.org/}
 }
 \seealso{
 Useful links:
@@ -42,14 +42,14 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: Pedro J. Aphalo \email{pedro.aphalo@helsinki.fi} (https://orcid.org/0000-0003-3385-972X) [translator]
+\strong{Maintainer}: Pedro J. Aphalo \email{pedro.aphalo@helsinki.fi} (0000-0003-3385-972X) [translator]
 
 Other contributors:
 \itemize{
-  \item T. Matthew Robson [contributor]
-  \item Sara Hartiakinen [contributor]
+  \item T. Matthew Robson (0000-0002-8631-796X) [contributor]
+  \item Saara M. Hartiakinen (0000-0002-8430-6861) [contributor]
   \item Anders Lindfors [contributor]
-  \item Titta K. Kotilainen [contributor]
+  \item Titta K. Kotilainen (0000-0002-2822-9734) [contributor]
 }
 
 }

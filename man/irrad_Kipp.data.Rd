@@ -32,6 +32,6 @@ is 300 nm to 2800 nm. Location: Viikki campus of the University of Helsinki.
 Coordinates: 60.226803 N, 25.019205 E.
 }
 \references{
-\url{http://www.kippzonen.com/}
+\url{https://www.kippzonen.com/}
 }
 \keyword{datasets}

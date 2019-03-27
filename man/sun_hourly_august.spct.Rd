@@ -29,7 +29,7 @@ The simualtion methods has been described in Lindfors et al. (2009).
 \references{
 Lindfors, A.; Heikkilä, A.; Kaurola, J.; Koskela, T. & Lakkala, K. (2009) 
 Reconstruction of Solar Spectral Surface UV Irradiances Using Radiative 
-Transfer Simulations. Photochemistry and Photobiology, 85: 1233–1239
+Transfer Simulations. Photochemistry and Photobiology, 85: 1233-1239
 }
 \author{
 Anders K. Lindfors (radiation transfer modelling)

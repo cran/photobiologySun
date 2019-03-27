@@ -10,7 +10,7 @@
   In each of the member spectra, the variables are as follows: \itemize{
   \item w.length (nm) \item s.e.irrad (W m-2 nm-1) }}
 \source{
-\url{http://rredc.nrel.gov/solar/spectra/am1.5/}.
+\url{https://rredc.nrel.gov/solar/spectra/am1.5/}.
 }
 \usage{
 sun_reference.mspct
