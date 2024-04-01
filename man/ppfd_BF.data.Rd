@@ -4,8 +4,10 @@
 \name{ppfd_BF.data}
 \alias{ppfd_BF.data}
 \title{Ground level solar PAR photon irradiance, direct and diffuse (measured)}
-\format{A data frame with 24479 rows and 9 variables.
-  variables.}
+\format{
+A data frame with 24479 rows and 9 variables.
+  variables.
+}
 \usage{
 ppfd_BF.data
 }
@@ -19,14 +21,14 @@ photosynthetically active radiation expresed as photon irradiance. Each value is
 The variables are as follows: 
 \itemize{ 
 \item time_EEST POSIXct Local time according to EET coordinates. 
-\item ppfd_tot_mean numeric (mol m-2 m-2) 
-\item ppfd_tot_min numeric (mol m-2 m-2) 
-\item ppfd_tot_max numeric (mol m-2 m-2) 
-\item ppfd_tot_sd numeric (mol m-2 m-2)
-\item ppfd_diff_mean numeric (mol m-2 m-2) 
-\item ppfd_diff_min numeric (mol m-2 m-2) 
-\item ppfd_diff_max numeric (mol m-2 m-2) 
-\item ppfd_diff_sd numeric (mol m-2 m-2)
+\item ppfd_tot_mean numeric (umol m-2 m-2) 
+\item ppfd_tot_min numeric (umol m-2 m-2) 
+\item ppfd_tot_max numeric (umol m-2 m-2) 
+\item ppfd_tot_sd numeric (umol m-2 m-2)
+\item ppfd_diff_mean numeric (umol m-2 m-2) 
+\item ppfd_diff_min numeric (umol m-2 m-2) 
+\item ppfd_diff_max numeric (umol m-2 m-2) 
+\item ppfd_diff_sd numeric (umol m-2 m-2)
 }
 }
 \note{
@@ -38,6 +40,7 @@ is 400 nm to 700 nm. Location: Viikki campus of the University of Helsinki.
 Coordinates: 60.226803 N, 25.019205 E.
 }
 \references{
-\url{https://www.delta-t.co.uk/}
+\url{https://delta-t.co.uk/}
+\url{https://www.campbellsci.com/}
 }
 \keyword{datasets}

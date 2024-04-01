@@ -1,8 +1,8 @@
 #' Ground level solar irradiance (measured)
 #' 
 #' Dataset containing mean, maximum, minimum and standard deviation values for 
-#' global radiation data expresed as (energy) irradiance. Each value is a summary
-#' 60 consecutive readings acquired once every second. 
+#' global radiation data expressed as (energy) irradiance. Each value is a summary
+#' 12 consecutive readings acquired once every 5 s. 
 #' 
 #' The variables are as follows: 
 #' \itemize{ 
@@ -37,10 +37,10 @@
 #' The variables are as follows: 
 #' \itemize{ 
 #' \item time_EEST POSIXct Local time according to EET coordinates. 
-#' \item ppfd_mean numeric (mol m-2 m-2) 
-#' \item ppfd_min numeric (mol m-2 m-2) 
-#' \item ppfd_max numeric (mol m-2 m-2) 
-#' \item ppfd_sd numeric (mol m-2 m-2)
+#' \item ppfd_mean numeric (umol m-2 m-2) 
+#' \item ppfd_min numeric (umol m-2 m-2) 
+#' \item ppfd_max numeric (umol m-2 m-2) 
+#' \item ppfd_sd numeric (umol m-2 m-2)
 #' }
 #' 
 #' @note Instrument used: LI-COR LI-190 quantum sensor,  mounted 
@@ -51,7 +51,8 @@
 #' Coordinates: 60.226803 N, 25.019205 E.
 #' 
 #' @references  
-#' \url{https://www.licor.com/}
+#' \url{https://www.licor.com/env/}
+#' \url{https://www.campbellsci.com/}
 #'   
 #' @docType data
 #' @keywords datasets
@@ -69,14 +70,14 @@
 #' The variables are as follows: 
 #' \itemize{ 
 #' \item time_EEST POSIXct Local time according to EET coordinates. 
-#' \item ppfd_tot_mean numeric (mol m-2 m-2) 
-#' \item ppfd_tot_min numeric (mol m-2 m-2) 
-#' \item ppfd_tot_max numeric (mol m-2 m-2) 
-#' \item ppfd_tot_sd numeric (mol m-2 m-2)
-#' \item ppfd_diff_mean numeric (mol m-2 m-2) 
-#' \item ppfd_diff_min numeric (mol m-2 m-2) 
-#' \item ppfd_diff_max numeric (mol m-2 m-2) 
-#' \item ppfd_diff_sd numeric (mol m-2 m-2)
+#' \item ppfd_tot_mean numeric (umol m-2 m-2) 
+#' \item ppfd_tot_min numeric (umol m-2 m-2) 
+#' \item ppfd_tot_max numeric (umol m-2 m-2) 
+#' \item ppfd_tot_sd numeric (umol m-2 m-2)
+#' \item ppfd_diff_mean numeric (umol m-2 m-2) 
+#' \item ppfd_diff_min numeric (umol m-2 m-2) 
+#' \item ppfd_diff_max numeric (umol m-2 m-2) 
+#' \item ppfd_diff_sd numeric (umol m-2 m-2)
 #' }
 #' 
 #' @note Instrument used: Delta-T BF5 "quantum sensor" , mounted 
@@ -87,7 +88,8 @@
 #' Coordinates: 60.226803 N, 25.019205 E.
 #' 
 #' @references  
-#' \url{https://www.delta-t.co.uk/}
+#' \url{https://delta-t.co.uk/}
+#' \url{https://www.campbellsci.com/}
 #'   
 #' @docType data
 #' @keywords datasets

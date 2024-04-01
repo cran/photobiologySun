@@ -4,8 +4,10 @@
 \name{gap.mspct}
 \alias{gap.mspct}
 \title{Solar spectral irradiance in a tree canopy gap (measured)}
-\format{A \code{source_mspct} object containing a collection of 72
-  source_spct objects.}
+\format{
+A \code{source_mspct} object containing a collection of 72
+  \code{source_spct} objects.
+}
 \usage{
 gap.mspct
 }
@@ -24,12 +26,18 @@ A dataset containing a sequence of 72 spectra measured with an
 \itemize{ \item w.length (nm), range 293 to 800 nm. \item s.e.irrad
   (W m-2 nm-1) }
 }
+\examples{
+length(gap.mspct)
+summary(gap.mspct)
+e_irrad(gap.mspct, attr2tb = "when.measured")
+  
+}
 \references{
 Ylianttila, L.; Visuri, R.; Huurto, L. & Jokela, K. (2005) 
   Evaluation of a single-monochromator diode array spectroradiometer for 
   sunbed UV-radiation measurements. Photochem Photobiol, 81, 333-341
 }
 \author{
-T. Matthew Robson and Saara Hartikainen (data)
+T. Matthew Robson and Saara Hartikainen (data).
 }
 \keyword{datasets}

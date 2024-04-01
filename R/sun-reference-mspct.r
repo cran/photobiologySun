@@ -12,9 +12,9 @@
 #' @details \code{ASTM.E490.AM0} is the mean extraterrestrial solar spectrum,
 #'   for air mass zero (AM0).
 #'
-#'   \code{Gueymard.AM0} is Gueymard's (2004) extraterrestrial solar spectrum, for air
-#'   mass zero (AM0). Used as the basis for calculating the terrestrial solar
-#'   spectra defined by ASTM G173.
+#'   \code{Gueymard.AM0} is Gueymard's (2004) extraterrestrial solar spectrum,
+#'   for air mass zero (AM0). Used as the basis for calculating the terrestrial
+#'   solar spectra defined by ASTM G173.
 #'
 #'   \code{WMO.Wehrli.AM0} is Wehrli's (1985) extraterrestrial solar spectrum,
 #'   for air mass zero (AM0). Used the World Meteorological Organization (WMO).
@@ -27,7 +27,7 @@
 #'   (AM1.5). Reference Spectrum Derived from SMARTS v. 2.9.2 for AM1.5. (solar
 #'   zenith angle 48.19)
 #'
-#' @source \url{https://rredc.nrel.gov/solar/spectra/am1.5/}.
+#' @source \emph{https://rredc.nrel.gov/solar/spectra/am1.5/} (no longer on-line).
 #'
 #' @references ASTM (2012) ASTM G173 Standard Tables for Reference Solar
 #' Spectral Irradiances: Direct Normal and Hemispherical on 37 degrees Tilted

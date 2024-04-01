@@ -4,15 +4,17 @@
 \name{irrad_Kipp.data}
 \alias{irrad_Kipp.data}
 \title{Ground level solar irradiance (measured)}
-\format{A data frame with 24479 rows and 5 variables.
-  variables.}
+\format{
+A data frame with 24479 rows and 5 variables.
+  variables.
+}
 \usage{
 irrad_Kipp.data
 }
 \description{
 Dataset containing mean, maximum, minimum and standard deviation values for 
-global radiation data expresed as (energy) irradiance. Each value is a summary
-60 consecutive readings acquired once every second.
+global radiation data expressed as (energy) irradiance. Each value is a summary
+12 consecutive readings acquired once every 5 s.
 }
 \details{
 The variables are as follows: 
