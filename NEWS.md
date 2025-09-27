@@ -1,3 +1,15 @@
+## photobiologySun 0.5.1
+
+* Add `sun_hourly_ozone.spct` with simulated spectral data for terrestrial
+solar radiation computed for climatology mean ozone column and for a 20% 
+depletion, both under clear sky.
+* Add `sun_elevation.spct` with spectral data from TUV simulations under clear 
+sky conditions for different sun elevation angles.
+* Add `four_days_1min.data` containing data for photon irradiances of UV-B,
+UV-A2, UV-A1, Blue, Red, Far-red and PAR and energy irradiance of global
+radiation for four days logged at a frequency of 1 min.
+* Rebuild all data objects with 'photobiology' (== 0.14.0).
+
 ## photobiologySun 0.5.0
 
 This update may break some existing code because of changes to naming of factor
@@ -5,8 +17,8 @@ levels and addition of attributes.
 
 * Fix scaling error (10<sup>6</sup>) in _ASTM E490 AM0_ spectrum included in 
   `sun_reference.mspct`.
-* Rebuild data objects with 'photobiology' 0.11.2 adding metadata and `spct.idx` 
-  when previsously missing.
+* Rebuild data objects with 'photobiology' 0.11.2 adding metadata and 
+  `spct.idx` when previsously missing.
 * Add some examples to documentation.
 
 ## photobiologySun 0.4.1

@@ -1,8 +1,8 @@
 Package: photobiologySun
 Type: Package
 Title: Data for Sunlight Spectra
-Version: 0.5.0
-Date: 2024-03-30
+Version: 0.5.1
+Date: 2025-09-26
 Authors@R: 
    c(
     person("Pedro J.", "Aphalo", email = "pedro.aphalo@helsinki.fi", role = c("aut", "trl", "cre"), comment = c(ORCID = "0000-0003-3385-972X")),
@@ -18,25 +18,28 @@ Description: Data for the extraterrestrial solar spectral irradiance and ground
     'r4photobiology' suite, Aphalo P. J. (2015) <doi:10.19232/uv4pb.2015.1.14>.
 License: GPL (>= 2)
 VignetteBuilder: knitr
-Depends: R (>= 4.0.0), photobiology (>= 0.11.2)
-Suggests: knitr (>= 1.45), rmarkdown (>= 2.25), photobiologyWavebands
-        (>= 0.5.2), ggspectra (>= 0.3.12), lubridate (>= 1.9.3)
+Depends: R (>= 4.1.0), photobiology (>= 0.14.0)
+Suggests: knitr (>= 1.45), rmarkdown (>= 2.26), photobiologyWavebands
+        (>= 0.5.3), ggspectra (>= 0.3.17), lubridate (>= 1.9.3)
 LazyLoad: yes
 LazyData: yes
 ByteCompile: true
 Encoding: UTF-8
-URL: http://www.r4photobiology.info,
+URL: https://docs.r4photobiology.info/photobiologySun/,
         https://github.com/aphalo/photobiologySun
 BugReports: https://github.com/aphalo/photobiologySun/issues
-RoxygenNote: 7.3.1
+RoxygenNote: 7.3.3
 NeedsCompilation: no
-Packaged: 2024-03-31 21:27:01 UTC; aphalo
-Author: Pedro J. Aphalo [aut, trl, cre]
-    (<https://orcid.org/0000-0003-3385-972X>),
-  T. Matthew Robson [ctb] (<https://orcid.org/0000-0002-8631-796X>),
-  Saara M. Hartiakinen [ctb] (<https://orcid.org/0000-0002-8430-6861>),
+Packaged: 2025-09-27 16:44:12 UTC; Aphalo
+Author: Pedro J. Aphalo [aut, trl, cre] (ORCID:
+    <https://orcid.org/0000-0003-3385-972X>),
+  T. Matthew Robson [ctb] (ORCID:
+    <https://orcid.org/0000-0002-8631-796X>),
+  Saara M. Hartiakinen [ctb] (ORCID:
+    <https://orcid.org/0000-0002-8430-6861>),
   Anders Lindfors [ctb],
-  Titta K. Kotilainen [ctb] (<https://orcid.org/0000-0002-2822-9734>)
+  Titta K. Kotilainen [ctb] (ORCID:
+    <https://orcid.org/0000-0002-2822-9734>)
 Maintainer: Pedro J. Aphalo <pedro.aphalo@helsinki.fi>
 Repository: CRAN
-Date/Publication: 2024-04-01 12:10:02 UTC
+Date/Publication: 2025-09-27 17:10:03 UTC
